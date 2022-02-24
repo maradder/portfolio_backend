@@ -25,6 +25,7 @@ app.use("/auth", require('./routes/v1/auth'))
 app.use("/projects", require('./routes/v1/projects'))
 app.use("/skills", require('./routes/v1/skills'))
 app.use("/contact", require('./routes/v1/email'))
+app.use("/posts", require('./routes/v1/posts'))
 
 // Error handling
 app.use((err, req, res, next) => {
